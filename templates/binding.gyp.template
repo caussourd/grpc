@@ -307,11 +307,6 @@
               % endif
               % endfor
             ]
-          }],
-          ['OS=="linux"', {
-            'ldflags': [
-              '-Wl,-wrap,memcpy'
-            ]
           }]
         ],
         "target_name": "${module.name}",

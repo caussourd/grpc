@@ -864,11 +864,6 @@
           'dependencies': [
             "z",
           ]
-        }],
-        ['OS=="linux"', {
-          'ldflags': [
-            '-Wl,-wrap,memcpy'
-          ]
         }]
       ],
       "target_name": "grpc_node",
